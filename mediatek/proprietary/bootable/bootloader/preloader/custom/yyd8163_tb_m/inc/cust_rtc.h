@@ -42,8 +42,9 @@
  * Month (MTH)       : 1 ~ 12
  * Day of Month (DOM): 1 ~ 31
  */
-#define RTC_DEFAULT_YEA		2010
-#define RTC_DEFAULT_MTH		1
+ //peishengguo
+#define RTC_DEFAULT_YEA		2017
+#define RTC_DEFAULT_MTH		6
 #define RTC_DEFAULT_DOM		1
 #define RTC_2SEC_REBOOT_ENABLE  1
 #define RTC_2SEC_MODE		2
