@@ -220,6 +220,13 @@ static int on_uevent(const char *buf, int len_buf)
 			}
 #if defined(MTK_CUSTOM_ZHI_KANG_CHARGING_LED)
 
+#elif defined(MTK_Y20D_CHARGE_LED)
+		     else if(bc<100)
+		     	{
+  			setchg_breathled_color("ear", "Red");
+				setchg_breathled_color("chest","Red");	
+		     	}
+		     	
 #else
 			else if (bc > 15 &&bc<100) {
 				lights_full();
